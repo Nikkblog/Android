@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.mobile-container{
+    width: 320px;
+    height: 640px;
+    border-radius: 20px;
+    border: 5px solid black;
+    border-bottom: 17px solid black;
+    border-top: 7px solid black;
+    background: url("img/hero.jpeg");
+    background-position: center;
+    margin: auto;
+    font-size: 17px;
+}
+.heading-container{
+    display: flex;
+    justify-content: space-between;
+}
+.battery-container{
+    display: flex;
+}
+.img-icon{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    top: 0;
+}
+.app-icon{
+    width: 50px;
+    height: 50px;
+}
+.app{
+    width: 50px;
+    height: 50px;
+    font-size: 5px;
+    margin: 10px;
+    font-family: fantasy; 
+    color: white;
+    
+}
+.app h1{
+   text-align: center;
+}
+.camera-container{
+    position: absolute;
+    top: 2px;
+    left: 49%;
+    background-color: black;
+    border-radius: 0 0 17px 17px;
+}
+.app-container{
+    width: 90%;
+    height: 200px;
+    position: relative;
+    bottom: -325px;
+    margin: 15px;
+}
+.row{
+    display: flex;
+    margin: 0 0 30px;
+}
+.google-container{
+    background-color: rgb(95 87 87 / 79%);
+    position: relative;
+    width: 85%;
+    height: 40px;
+    top: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 25px;
+}
+.google{
+    margin: 15px;
+}
